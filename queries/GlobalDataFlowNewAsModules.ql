@@ -6,7 +6,7 @@
  import semmle.code.cpp.dataflow.new.DataFlow
  import semmle.code.cpp.controlflow.Guards
 
- // Here we create a specialized data flow module based on our signature.
+ // Here we create a specialized data flow module based on our configuration.
  // This uses the new parameterized modules functionality.
  // In version 0.6.1 of 'codeql/cpp-all' the data flow module is created using `DataFlow::Make`.
  // From version > 0.6.1 this will become `DataFlow::Global`.
