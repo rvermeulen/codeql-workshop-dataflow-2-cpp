@@ -1,0 +1,7 @@
+---
+library: false
+name: tests
+version: 0.0.1
+extractor: cpp
+dependencies:
+  "queries": "*"

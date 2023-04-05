@@ -1,0 +1,105 @@
+edges
+| test.cpp:11:23:11:25 | ptr | test.cpp:11:23:11:25 | ptr |
+| test.cpp:11:23:11:25 | ptr | test.cpp:12:10:12:12 | ptr |
+| test.cpp:15:26:15:28 | ptr | test.cpp:15:26:15:28 | ptr |
+| test.cpp:20:26:20:28 | ptr | test.cpp:20:26:20:28 | ptr |
+| test.cpp:26:36:26:38 | ptr | test.cpp:26:36:26:38 | ptr |
+| test.cpp:26:36:26:38 | ptr | test.cpp:28:14:28:16 | ptr |
+| test.cpp:32:26:32:28 | ptr | test.cpp:35:10:35:13 | ptr2 |
+| test.cpp:39:19:39:25 | call to source1 | test.cpp:41:16:41:19 | ptr1 |
+| test.cpp:39:19:39:25 | call to source1 | test.cpp:42:19:42:22 | ptr1 |
+| test.cpp:39:19:39:25 | call to source1 | test.cpp:43:19:43:22 | ptr1 |
+| test.cpp:39:19:39:25 | call to source1 | test.cpp:44:29:44:32 | ptr1 |
+| test.cpp:39:19:39:25 | call to source1 | test.cpp:45:18:45:21 | ptr1 |
+| test.cpp:41:16:41:19 | ptr1 | test.cpp:11:23:11:25 | ptr |
+| test.cpp:41:16:41:19 | ptr1 | test.cpp:41:16:41:19 | ref arg ptr1 |
+| test.cpp:41:16:41:19 | ref arg ptr1 | test.cpp:42:19:42:22 | ptr1 |
+| test.cpp:41:16:41:19 | ref arg ptr1 | test.cpp:43:19:43:22 | ptr1 |
+| test.cpp:41:16:41:19 | ref arg ptr1 | test.cpp:44:29:44:32 | ptr1 |
+| test.cpp:41:16:41:19 | ref arg ptr1 | test.cpp:45:18:45:21 | ptr1 |
+| test.cpp:42:19:42:22 | ptr1 | test.cpp:15:26:15:28 | ptr |
+| test.cpp:42:19:42:22 | ptr1 | test.cpp:42:19:42:22 | ref arg ptr1 |
+| test.cpp:42:19:42:22 | ref arg ptr1 | test.cpp:43:19:43:22 | ptr1 |
+| test.cpp:42:19:42:22 | ref arg ptr1 | test.cpp:44:29:44:32 | ptr1 |
+| test.cpp:42:19:42:22 | ref arg ptr1 | test.cpp:45:18:45:21 | ptr1 |
+| test.cpp:43:19:43:22 | ptr1 | test.cpp:20:26:20:28 | ptr |
+| test.cpp:43:19:43:22 | ptr1 | test.cpp:43:19:43:22 | ref arg ptr1 |
+| test.cpp:43:19:43:22 | ref arg ptr1 | test.cpp:44:29:44:32 | ptr1 |
+| test.cpp:43:19:43:22 | ref arg ptr1 | test.cpp:45:18:45:21 | ptr1 |
+| test.cpp:44:29:44:32 | ptr1 | test.cpp:26:36:26:38 | ptr |
+| test.cpp:44:29:44:32 | ptr1 | test.cpp:44:29:44:32 | ref arg ptr1 |
+| test.cpp:44:29:44:32 | ref arg ptr1 | test.cpp:45:18:45:21 | ptr1 |
+| test.cpp:45:18:45:21 | ptr1 | test.cpp:32:26:32:28 | ptr |
+| test.cpp:48:13:48:16 | ref arg ptr2 | test.cpp:50:16:50:19 | ptr2 |
+| test.cpp:48:13:48:16 | ref arg ptr2 | test.cpp:51:19:51:22 | ptr2 |
+| test.cpp:48:13:48:16 | ref arg ptr2 | test.cpp:52:19:52:22 | ptr2 |
+| test.cpp:48:13:48:16 | ref arg ptr2 | test.cpp:53:29:53:32 | ptr2 |
+| test.cpp:48:13:48:16 | ref arg ptr2 | test.cpp:54:18:54:21 | ptr2 |
+| test.cpp:50:16:50:19 | ptr2 | test.cpp:11:23:11:25 | ptr |
+| test.cpp:50:16:50:19 | ptr2 | test.cpp:50:16:50:19 | ref arg ptr2 |
+| test.cpp:50:16:50:19 | ref arg ptr2 | test.cpp:51:19:51:22 | ptr2 |
+| test.cpp:50:16:50:19 | ref arg ptr2 | test.cpp:52:19:52:22 | ptr2 |
+| test.cpp:50:16:50:19 | ref arg ptr2 | test.cpp:53:29:53:32 | ptr2 |
+| test.cpp:50:16:50:19 | ref arg ptr2 | test.cpp:54:18:54:21 | ptr2 |
+| test.cpp:51:19:51:22 | ptr2 | test.cpp:15:26:15:28 | ptr |
+| test.cpp:51:19:51:22 | ptr2 | test.cpp:51:19:51:22 | ref arg ptr2 |
+| test.cpp:51:19:51:22 | ref arg ptr2 | test.cpp:52:19:52:22 | ptr2 |
+| test.cpp:51:19:51:22 | ref arg ptr2 | test.cpp:53:29:53:32 | ptr2 |
+| test.cpp:51:19:51:22 | ref arg ptr2 | test.cpp:54:18:54:21 | ptr2 |
+| test.cpp:52:19:52:22 | ptr2 | test.cpp:20:26:20:28 | ptr |
+| test.cpp:52:19:52:22 | ptr2 | test.cpp:52:19:52:22 | ref arg ptr2 |
+| test.cpp:52:19:52:22 | ref arg ptr2 | test.cpp:53:29:53:32 | ptr2 |
+| test.cpp:52:19:52:22 | ref arg ptr2 | test.cpp:54:18:54:21 | ptr2 |
+| test.cpp:53:29:53:32 | ptr2 | test.cpp:26:36:26:38 | ptr |
+| test.cpp:53:29:53:32 | ptr2 | test.cpp:53:29:53:32 | ref arg ptr2 |
+| test.cpp:53:29:53:32 | ref arg ptr2 | test.cpp:54:18:54:21 | ptr2 |
+| test.cpp:54:18:54:21 | ptr2 | test.cpp:32:26:32:28 | ptr |
+nodes
+| test.cpp:11:23:11:25 | ptr | semmle.label | ptr |
+| test.cpp:11:23:11:25 | ptr | semmle.label | ptr |
+| test.cpp:12:10:12:12 | ptr | semmle.label | ptr |
+| test.cpp:15:26:15:28 | ptr | semmle.label | ptr |
+| test.cpp:15:26:15:28 | ptr | semmle.label | ptr |
+| test.cpp:20:26:20:28 | ptr | semmle.label | ptr |
+| test.cpp:20:26:20:28 | ptr | semmle.label | ptr |
+| test.cpp:26:36:26:38 | ptr | semmle.label | ptr |
+| test.cpp:26:36:26:38 | ptr | semmle.label | ptr |
+| test.cpp:28:14:28:16 | ptr | semmle.label | ptr |
+| test.cpp:32:26:32:28 | ptr | semmle.label | ptr |
+| test.cpp:35:10:35:13 | ptr2 | semmle.label | ptr2 |
+| test.cpp:39:19:39:25 | call to source1 | semmle.label | call to source1 |
+| test.cpp:41:16:41:19 | ptr1 | semmle.label | ptr1 |
+| test.cpp:41:16:41:19 | ref arg ptr1 | semmle.label | ref arg ptr1 |
+| test.cpp:42:19:42:22 | ptr1 | semmle.label | ptr1 |
+| test.cpp:42:19:42:22 | ref arg ptr1 | semmle.label | ref arg ptr1 |
+| test.cpp:43:19:43:22 | ptr1 | semmle.label | ptr1 |
+| test.cpp:43:19:43:22 | ref arg ptr1 | semmle.label | ref arg ptr1 |
+| test.cpp:44:29:44:32 | ptr1 | semmle.label | ptr1 |
+| test.cpp:44:29:44:32 | ref arg ptr1 | semmle.label | ref arg ptr1 |
+| test.cpp:45:18:45:21 | ptr1 | semmle.label | ptr1 |
+| test.cpp:48:13:48:16 | ref arg ptr2 | semmle.label | ref arg ptr2 |
+| test.cpp:50:16:50:19 | ptr2 | semmle.label | ptr2 |
+| test.cpp:50:16:50:19 | ref arg ptr2 | semmle.label | ref arg ptr2 |
+| test.cpp:51:19:51:22 | ptr2 | semmle.label | ptr2 |
+| test.cpp:51:19:51:22 | ref arg ptr2 | semmle.label | ref arg ptr2 |
+| test.cpp:52:19:52:22 | ptr2 | semmle.label | ptr2 |
+| test.cpp:52:19:52:22 | ref arg ptr2 | semmle.label | ref arg ptr2 |
+| test.cpp:53:29:53:32 | ptr2 | semmle.label | ptr2 |
+| test.cpp:53:29:53:32 | ref arg ptr2 | semmle.label | ref arg ptr2 |
+| test.cpp:54:18:54:21 | ptr2 | semmle.label | ptr2 |
+subpaths
+| test.cpp:41:16:41:19 | ptr1 | test.cpp:11:23:11:25 | ptr | test.cpp:11:23:11:25 | ptr | test.cpp:41:16:41:19 | ref arg ptr1 |
+| test.cpp:42:19:42:22 | ptr1 | test.cpp:15:26:15:28 | ptr | test.cpp:15:26:15:28 | ptr | test.cpp:42:19:42:22 | ref arg ptr1 |
+| test.cpp:43:19:43:22 | ptr1 | test.cpp:20:26:20:28 | ptr | test.cpp:20:26:20:28 | ptr | test.cpp:43:19:43:22 | ref arg ptr1 |
+| test.cpp:44:29:44:32 | ptr1 | test.cpp:26:36:26:38 | ptr | test.cpp:26:36:26:38 | ptr | test.cpp:44:29:44:32 | ref arg ptr1 |
+| test.cpp:50:16:50:19 | ptr2 | test.cpp:11:23:11:25 | ptr | test.cpp:11:23:11:25 | ptr | test.cpp:50:16:50:19 | ref arg ptr2 |
+| test.cpp:51:19:51:22 | ptr2 | test.cpp:15:26:15:28 | ptr | test.cpp:15:26:15:28 | ptr | test.cpp:51:19:51:22 | ref arg ptr2 |
+| test.cpp:52:19:52:22 | ptr2 | test.cpp:20:26:20:28 | ptr | test.cpp:20:26:20:28 | ptr | test.cpp:52:19:52:22 | ref arg ptr2 |
+| test.cpp:53:29:53:32 | ptr2 | test.cpp:26:36:26:38 | ptr | test.cpp:26:36:26:38 | ptr | test.cpp:53:29:53:32 | ref arg ptr2 |
+#select
+| test.cpp:12:10:12:12 | ptr | test.cpp:39:19:39:25 | call to source1 | test.cpp:12:10:12:12 | ptr | Insecure usage of sink |
+| test.cpp:12:10:12:12 | ptr | test.cpp:48:13:48:16 | ref arg ptr2 | test.cpp:12:10:12:12 | ptr | Insecure usage of sink |
+| test.cpp:28:14:28:16 | ptr | test.cpp:39:19:39:25 | call to source1 | test.cpp:28:14:28:16 | ptr | Insecure usage of sink |
+| test.cpp:28:14:28:16 | ptr | test.cpp:48:13:48:16 | ref arg ptr2 | test.cpp:28:14:28:16 | ptr | Insecure usage of sink |
+| test.cpp:35:10:35:13 | ptr2 | test.cpp:39:19:39:25 | call to source1 | test.cpp:35:10:35:13 | ptr2 | Insecure usage of sink |
+| test.cpp:35:10:35:13 | ptr2 | test.cpp:48:13:48:16 | ref arg ptr2 | test.cpp:35:10:35:13 | ptr2 | Insecure usage of sink |
